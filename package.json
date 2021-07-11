@@ -1,0 +1,31 @@
+{
+    "name": "simple-fast-coding",
+    "displayName": "Simple Fast Coding V1",
+    "description": "A Visual Studio Code extension that makes coding much faster and easier.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "bugs": {
+		"url": "https://github.com/ExtesnionCreator/SimpleFastCoding/issues"
+	},
+    "publisher": "SimpleFastCoding",
+    "icon": "logo.png",
+    "categories": [
+        "Snippets",
+        "Programming Languages",
+        "Other"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/python.code-snippets"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ExtensionCreator/simplefastcoding"
+    }
+}
